@@ -1,0 +1,30 @@
+{
+  "name": "ts-api_basic",
+  "version": "1.0.0",
+  "description": "A basic api in Node JS with Type-Script",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "jest --config jest.config.ts --coverage",
+    "build": "rm -rf build/ && tsc -p tsconfig.build.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "mongoose": "^8.3.3",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.8",
+    "@types/supertest": "^6.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
